@@ -3,7 +3,7 @@ package com.komangmkpl;
 import java.util.Random;
 
 public class RandomNumberGener {
-    public int getRandomNumber(){
+    public static int getRandomNumber(){
         return new Random().nextInt();
     }
 
